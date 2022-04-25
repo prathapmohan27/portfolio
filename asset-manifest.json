@@ -1,0 +1,27 @@
+{
+  "files": {
+    "main.js": "/static/js/main.3c037151.js",
+    "static/media/waldo.png": "/static/media/waldo.a43d80b979458d8fa795.png",
+    "static/media/memoryCard.png": "/static/media/memoryCard.1895a3a3b52e99537a8e.png",
+    "static/media/netflix.png": "/static/media/netflix.15b1fa7b0ae2d44e77fd.png",
+    "static/media/shop.png": "/static/media/shop.f412fb996b8dc2e646d5.png",
+    "static/media/weather.png": "/static/media/weather.6847095eb5f78fa49c51.png",
+    "static/media/library.png": "/static/media/library.baa5643bf2b25d173c64.png",
+    "static/media/todo.png": "/static/media/todo.0f5e10b2e1b8dea42b0b.png",
+    "static/media/sc.png": "/static/media/sc.fedb29267dd012426021.png",
+    "static/media/battleShip.png": "/static/media/battleShip.70aaee9f53956587efb4.png",
+    "static/media/tictactoe.png": "/static/media/tictactoe.0e3342e6f18f2aa42df6.png",
+    "static/media/jest.png": "/static/media/jest.809768de8350fa5f6a21.png",
+    "static/media/react.webp": "/static/media/react.2a0cac33f155e4a27216.webp",
+    "static/media/git.webp": "/static/media/git.59781442cb50b715e4f2.webp",
+    "static/media/sass.webp": "/static/media/sass.ea171bac3681fdb0e1a2.webp",
+    "static/media/css.webp": "/static/media/css.12c0f09e969fbfa3191e.webp",
+    "static/media/html.webp": "/static/media/html.39518b3fda692c928c4e.webp",
+    "static/media/firebase.webp": "/static/media/firebase.3a9ddb877dde97477f83.webp",
+    "index.html": "/index.html",
+    "main.3c037151.js.map": "/static/js/main.3c037151.js.map"
+  },
+  "entrypoints": [
+    "static/js/main.3c037151.js"
+  ]
+}
