@@ -1,4 +1,3 @@
-import React from 'react';
 import { createGlobalStyle } from 'styled-components';
 
 interface themeInterface {
@@ -34,14 +33,4 @@ export const dark = {
   NavBg: '#373737',
   aboutBg: '#000',
   PCard: '#1f1e1e',
-};
-
-export const handleScroll = (
-  e: React.MouseEvent<HTMLButtonElement> | React.MouseEvent<HTMLLIElement>
-) => {
-  const section = e.currentTarget.className;
-  const element = document.querySelector(`#${section}`);
-  if (element !== null) {
-    element.scrollIntoView({ behavior: 'smooth' });
-  }
 };

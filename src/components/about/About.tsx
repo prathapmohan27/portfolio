@@ -1,8 +1,14 @@
 import { AboutContainer, H1 } from './AboutStyle';
 import { PrimaryButton } from '../home/HomeStyle';
-import { handleScroll } from '../Global';
 
 const About = () => {
+  const handleScroll = (e: React.MouseEvent<HTMLButtonElement>) => {
+    const section = e.currentTarget.name;
+    const element = document.querySelector(`#${section}`);
+    if (element !== null) {
+      element.scrollIntoView({ behavior: 'smooth' });
+    }
+  };
   return (
     <AboutContainer id="about">
       <H1>About Me</H1>
@@ -14,7 +20,7 @@ const About = () => {
         now. I like to watch Anime,Web series and reading manga.
       </p>
       <div>
-        <PrimaryButton onClick={handleScroll} className="contact">
+        <PrimaryButton onClick={handleScroll} name="contact">
           Let's Talk
         </PrimaryButton>
       </div>

@@ -6,8 +6,15 @@ import {
   SecondaryButton,
   PrimaryButton,
 } from './HomeStyle';
-import { handleScroll } from '../Global';
+
 const Home = () => {
+  const handleScroll = (e: React.MouseEvent<HTMLButtonElement>) => {
+    const section = e.currentTarget.name;
+    const element = document.querySelector(`#${section}`);
+    if (element !== null) {
+      element.scrollIntoView({ behavior: 'smooth' });
+    }
+  };
   return (
     <HomeContainer id="home">
       <Section>
@@ -16,10 +23,10 @@ const Home = () => {
         </h1>
         <p>Self Taught Frontend Developer.</p>
         <ButtonContainer>
-          <SecondaryButton onClick={handleScroll} className="about">
+          <SecondaryButton onClick={handleScroll} name="about">
             About Me
           </SecondaryButton>
-          <PrimaryButton onClick={handleScroll} className="project">
+          <PrimaryButton onClick={handleScroll} name="project">
             Projects
           </PrimaryButton>
         </ButtonContainer>
