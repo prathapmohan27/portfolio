@@ -1,25 +1,42 @@
-import React from 'react';
-import logo from './logo.svg';
-import './App.css';
+import React, { useEffect, useState } from 'react';
+import { ThemeProvider } from 'styled-components';
+import About from './components/about/About';
+import Contact from './components/Contact/Contact';
+import Home from './components/home/Home';
+import Link from './components/link/Link';
+import NavBar from './components/navbar/NavBar';
+import Project from './components/project/Project';
+import Skill from './components/skill/Skill';
+import { GlobalStyle, light, dark } from './components/Global';
 
 function App() {
+  const [isDark, setIsDark] = useState<boolean>(true);
+  const [theme, setTheme] = useState<any>({});
+  useEffect(() => {
+    if (isDark) {
+      setTheme(dark);
+    } else {
+      setTheme(light);
+    }
+  }, [isDark]);
+
+  const changeTheme = () => {
+    setIsDark(!isDark);
+  };
+
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.tsx</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <>
+      <ThemeProvider theme={theme}>
+        <GlobalStyle isDark={isDark} />
+        <Link isDark={isDark} changeTheme={changeTheme} />
+        <NavBar />
+        <Home />
+        <About />
+        <Skill />
+        <Project />
+        <Contact />
+      </ThemeProvider>
+    </>
   );
 }
 
