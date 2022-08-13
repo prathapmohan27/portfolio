@@ -12,6 +12,10 @@ export const data = [
     title: 'React Js',
   },
   {
+    path: 'angular.png',
+    title: 'Angular',
+  },
+  {
     path: 'html.webp',
     title: 'Html',
   },
