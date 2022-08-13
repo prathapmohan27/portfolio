@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.js": "/portfolio/static/js/main.59300027.js",
+    "main.js": "/portfolio/static/js/main.ea66a501.js",
     "static/media/waldo.png": "/portfolio/static/media/waldo.a43d80b979458d8fa795.png",
     "static/media/memoryCard.png": "/portfolio/static/media/memoryCard.1895a3a3b52e99537a8e.png",
     "static/media/netflix.png": "/portfolio/static/media/netflix.15b1fa7b0ae2d44e77fd.png",
@@ -11,6 +11,7 @@
     "static/media/sc.png": "/portfolio/static/media/sc.fedb29267dd012426021.png",
     "static/media/battleShip.png": "/portfolio/static/media/battleShip.70aaee9f53956587efb4.png",
     "static/media/tictactoe.png": "/portfolio/static/media/tictactoe.0e3342e6f18f2aa42df6.png",
+    "static/media/angular.png": "/portfolio/static/media/angular.5ce264f9a63d7f74701d.png",
     "static/media/jest.png": "/portfolio/static/media/jest.809768de8350fa5f6a21.png",
     "static/media/react.webp": "/portfolio/static/media/react.2a0cac33f155e4a27216.webp",
     "static/media/git.webp": "/portfolio/static/media/git.59781442cb50b715e4f2.webp",
@@ -19,9 +20,9 @@
     "static/media/html.webp": "/portfolio/static/media/html.39518b3fda692c928c4e.webp",
     "static/media/firebase.webp": "/portfolio/static/media/firebase.3a9ddb877dde97477f83.webp",
     "index.html": "/portfolio/index.html",
-    "main.59300027.js.map": "/portfolio/static/js/main.59300027.js.map"
+    "main.ea66a501.js.map": "/portfolio/static/js/main.ea66a501.js.map"
   },
   "entrypoints": [
-    "static/js/main.59300027.js"
+    "static/js/main.ea66a501.js"
   ]
 }
